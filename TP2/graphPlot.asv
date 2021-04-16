@@ -69,12 +69,5 @@ end
 %Boom de nouveaux graphiques avec le nuages de points
 close all
 hold on
-fplot('1/(1+25*x^2)',[-1 1])
-plot(X2,Y2,'*')
-plot(X4,Y4)
-title('Comparaison de interpole et f(x)')
-xlabel('X')
-ylabel('Y')
-legend('f(x)','valeurs discretes de X Y=F(X)','interpol par le nuage de points')
-
+fplot('1/(1+25*x
 
