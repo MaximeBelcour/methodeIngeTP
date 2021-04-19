@@ -11,7 +11,7 @@ n=10
 a=0
 b=1.2
 
-[X,h] = discr_intergale(a,b,n)
+[X,h] = discr_integrale(a,b,n)
 Y=exp(-X)
 
 %Q2 rectangle----------------------------------
