@@ -1,4 +1,4 @@
-function [X,h] = discr_i(a,b,n)
+function [X,h] = discr_integrale(a,b,n)
     h = (b-a)/n;
 
     for g=0:n

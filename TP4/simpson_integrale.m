@@ -1,4 +1,4 @@
-function S=simpson(a,b,n,h)
+function S=simpson_integrale(a,b,n,h)
     G=[a:h:b];
     F=exp(-G);
     S=h/3*(F(1)+F(n+1));
